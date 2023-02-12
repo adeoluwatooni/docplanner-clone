@@ -1,0 +1,153 @@
+nav{
+  /* position:fixed; */
+  background-color: aqua;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+
+nav ul{
+  list-style: none;
+  display: flex;
+  width: 250px;
+  justify-content:space-between;
+}
+
+#headerContainer{
+  width: 1000px;
+  display:flex;
+  justify-content: space-between;
+  /* background-color: black; */
+}
+
+.dropdown{
+  position:relative;
+}
+
+.dropdown-content{
+  display:none;
+  position:absolute;
+
+}
+
+
+
+
+.section1outer{
+  width: 1000px;
+  margin: auto;
+}
+
+.section1inner{
+  margin-bottom: 20px;
+}
+
+.section1image, .makinghealthcare{
+  display: flex;
+  justify-content: center;
+}
+
+.company-goals{
+  display: flex;
+  justify-content: space-around;
+}
+
+.goals{
+  width: 477.5px;
+}
+
+
+
+
+.section2inner{
+  justify-content:space-between;
+  display:flex;
+  width: 1000px;
+  margin:auto;
+}
+
+.patient, .doctor, .clinic{
+  width: 300px;
+  height: 345px;
+  border-radius: 10px;
+  color: white;
+  padding: 15px;
+  margin: 0 10px;
+}
+
+.patient{
+  background-color: rgba(0, 179, 155, 1);
+}
+
+.doctor{
+  background-color: rgb(61, 131, 223);
+}
+
+.clinic{
+  background-color: rgb(27, 39, 52);
+}
+
+
+
+
+
+.section3outer{
+  display:flex;
+  justify-content: center;
+}
+
+.section3inner{
+  width: 1000px;
+  /* height:fit-content; */
+  display: flex;
+  
+}
+
+.global{
+width: 30%;
+}
+
+.brandlogos{
+  width: 70%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+
+
+
+.section5outer{
+display: flex;
+justify-content: center;
+}
+
+.section5inner{
+ width: 1000px;
+}
+
+.improve, .teamlocation{
+  width: 450px;
+  text-align: center;
+  margin: auto;
+}
+
+
+
+
+.section6outer{
+  width: 1000px;
+}
+
+.offices{
+  width: 330px;
+} 
+
+.officelocation{
+  display: flex;
+  justify-content: space-between;
+}
