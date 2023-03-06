@@ -121,6 +121,71 @@ width: 30%;
 
 
 
+
+
+/* .section4{
+
+} */
+
+
+.section4outer{
+  background-color: rgb(200, 247, 240);
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: 50px 0px;
+  height: 530px;
+  width: 100%;
+  position: relative;
+}
+
+.section4image{
+  position: absolute;
+  left: 100px;
+  bottom: 0px;
+  width: 480px;
+  height: 340px;
+  background-image: url(./images/docplanner-icon-hq.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section4inner{
+  width: 1000px;
+  display: flex;
+  position: absolute;
+  top: 20px;
+}
+
+.stats{
+  width: 222px;
+  height: 250px;
+  background-color: white;
+  margin: 10px 0;
+  padding: auto;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+.statscontainer{
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.statscontainer1{
+  margin-top: 40px;
+}
+
+
+
+
+
+
+
 .section5outer{
 display: flex;
 justify-content: center;
@@ -139,15 +204,89 @@ justify-content: center;
 
 
 
+
+
 .section6outer{
-  width: 1000px;
+  display: flex;
+  justify-content: center;
 }
 
+.section6inner{
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
 .offices{
-  width: 330px;
+  width: 290px;
+  /* position: relative; */
+  text-decoration: none;
+  cursor: pointer;
 } 
+
+.figuree{
+  margin-left: auto;
+  }
 
 .officelocation{
   display: flex;
-  justify-content: space-between;
+  align-items: baseline;
+  justify-content: center;
+  /* position: absolute; */
 }
+
+.seebtn{
+  color: white;
+  background-color: rgb(61,131,223);
+  border: none;
+  border-radius: 2px;
+  height: 30px;
+  width: 100px;
+  font-size: 10px;
+  align-items: baseline;
+  margin-left: 40px;
+}
+
+
+
+
+
+.section7outer{
+  margin: 100px 0;
+}
+
+.section7inner{
+width: 1000px;
+margin: auto;
+}
+
+.section7header{
+  text-align: center;
+}
+
+.section7button{
+  display: block;
+  margin: auto;
+  color: white;
+  background-color: rgb(61,131,223);
+  border: none;
+  border-radius: 2px;
+  width: 210px;
+  height: 40px;
+}
+
+.section7button:hover{
+  opacity: 0.9;
+  transition: 0.2s;
+}
+
+
+
+footer div{
+  text-align: center;
+}
+
+
+
